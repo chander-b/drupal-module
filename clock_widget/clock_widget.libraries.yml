@@ -1,0 +1,9 @@
+clock-widget:
+  version: 1.x
+  css:
+    theme:
+      assets/css/clock-widget.css: {}
+  js:
+    assets/js/clock-widget.js: {}
+  dependencies:
+    - core/jquery

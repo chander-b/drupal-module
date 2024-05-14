@@ -1,0 +1,19 @@
+<?php
+
+/**
+ * @file
+ * Module file.
+ */
+
+/**
+ * Implements hook_theme().
+ */
+function clock_widget_theme($existing, $type, $theme, $path) {
+  return [
+    'clock_widget_template' => [
+      'variables' => [
+        'timezone' => NULL,
+      ],
+    ],
+  ];
+}

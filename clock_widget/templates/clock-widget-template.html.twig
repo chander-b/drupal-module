@@ -1,0 +1,15 @@
+{#
+/**
+ * @file
+ * Theme override to display a block.
+ * Available variables:
+ * - timezone: vaule of timezone.
+ *
+ * @see template_preprocess_block()
+ */
+#}
+
+<div class="clock-widget-wrapper">
+  <h2>{{ timezone }} {{ 'Time Zone'|t }} Clock </h2>
+  <div class="{{ timezone }}-clock-widget"></div>
+</div>
